@@ -1,0 +1,107 @@
+/* Gaya Umum */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff5f5;
+    color: #333;
+}
+
+header {
+    background-color: #800000; /* maroon */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav a {
+    color: #ffcccc;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffffff;
+}
+
+.container {
+    max-width: 900px;
+    margin: 30px auto;
+    background-color: #fff0f0;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(128, 0, 0, 0.2);
+}
+
+/* Profil */
+.profil-img {
+    display: block;
+    margin: 20px auto;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 4px solid #800000;
+    object-fit: cover;
+}
+
+/* Gallery */
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.gallery img {
+    width: 28%;
+    border-radius: 10px;
+    border: 3px solid #800000;
+    transition: transform 0.3s;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+/* Form Kontak */
+form {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 0 auto;
+}
+
+input, textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 2px solid #800000;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #800000;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #660000;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #800000;
+    color: white;
+    margin-top: 30px;
+    border-top: 3px solid #b33a3a;
+}
